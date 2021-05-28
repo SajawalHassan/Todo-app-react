@@ -14,7 +14,7 @@ function App() {
   useEffect(() => {
     // The code that we put in here will run when the app starts
     db.collection('todos').orderBy('timestamp', 'desc').onSnapshot(snapshot => {
-      setTodos(snapshot.docs.map(doc => doc.data().todo))
+      setTodos(snapshot.docs.map(doc => ({id: doc.id, todo: doc.data().todo})))
     })
   }, []);
 
@@ -55,7 +55,7 @@ function App() {
     {/* Displaying the todo's that the user has putted (using form control) */}
       <ul>
         {todos.map(todo => (
-          <Todo text = {todo} />
+          <Todo todo = {todo} />
         ))}
       </ul>
     </div>
