@@ -1,5 +1,4 @@
-![alt text](![image](https://user-images.githubusercontent.com/78025409/133128153-85d5d2ca-6544-46ae-a9fd-4d54f803e25b.png)
-)
+# Todo App
 
 !! Will not work because of database timelimit.
 
@@ -9,7 +8,7 @@ Demo project(https://todo-app-17443.web.app/)
 
 # Installation:
    - clone project
-   - install npm:```npm i```
+   - install npm: ```npm i```
 
 # Usage:
     ```
