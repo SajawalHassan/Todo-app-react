@@ -4,7 +4,7 @@
 
 lets you write, organize, and reprioritize your tasks more efficiently.
 
-Demo project(https://todo-app-17443.web.app/)
+Demo project: (https://todo-app-17443.web.app/)
 
 # Installation:
    - clone project
