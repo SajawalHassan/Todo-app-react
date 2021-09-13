@@ -1,4 +1,4 @@
-![Todo_App](https://user-images.githubusercontent.com/78025409/133132340-c3d6a44e-165e-40ec-bcb0-bf7d17396d0c.png)
+# Todo App
 
 !! Will not work because of database timelimit.
 
